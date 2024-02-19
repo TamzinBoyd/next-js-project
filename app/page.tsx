@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import Header from "../app/components/header/Header";
 
 export default function Home() {
   return (
     <>
-      <h3> test </h3>
+      <Header />
       <button className="btn btn-primary">
         <Link href="/about">See about me</Link>
       </button>
